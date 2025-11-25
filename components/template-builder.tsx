@@ -472,7 +472,7 @@ export function TemplateBuilder({ clientId }: { clientId: string }) {
                       onCheckedChange={() => toggleProduct("TMS")}
                     />
                     <label htmlFor="tms" className="text-sm font-medium cursor-pointer">
-                      TMS (Transport Management System)
+                      TMS (Truck Management System)
                     </label>
                   </div>
                   <div className="flex items-center space-x-2">
@@ -482,7 +482,7 @@ export function TemplateBuilder({ clientId }: { clientId: string }) {
                       onCheckedChange={() => toggleProduct("RMS")}
                     />
                     <label htmlFor="rms" className="text-sm font-medium cursor-pointer">
-                      RMS (Resource Management System)
+                      RMS (Rail Management System)
                     </label>
                   </div>
                 </div>
